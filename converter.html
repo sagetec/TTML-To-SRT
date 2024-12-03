@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>TTML to SRT Converter</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        button {
+            margin: 5px 0;
+            padding: 10px 20px;
+        }
+        #log {
+            margin-top: 20px;
+            white-space: pre-wrap;
+            background-color: #f0f0f0;
+            padding: 10px;
+            height: 300px;
+            overflow-y: scroll;
+            border: 1px solid #ccc;
+        }
+    </style>
+</head>
+<body>
+    <h1>TTML to SRT Converter</h1>
+    <button id="selectInput">Select Input Folder (TTML)</button><br>
+    <button id="selectOutput">Select Output Folder (SRT)</button><br>
+    <button id="convert" disabled>Convert TTML to SRT</button>
+    <div id="log"></div>
+
+    <script src="converter.js"></script>
+</body>
+</html>
